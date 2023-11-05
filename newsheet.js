@@ -78,5 +78,6 @@ function clearCellData() {
     const cells = document.querySelectorAll(".row div");
     cells.forEach(cell => {
         cell.textContent = "";
+        cell.backgroundColor="white;"
     });
 }
